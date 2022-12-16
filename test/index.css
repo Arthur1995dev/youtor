@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    max-width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: lightgray;
+}
+.green-big {
+    position: absolute;
+    border-radius: 50%;
+    background-color: green;
+    width: 600px;
+    height: 600px;
+    top: -250px;
+    left: -150px;
+}
+.red {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left top, red 0 50%, transparent 50%);
+    right: 0;
+    top: 0;
+}
+.green-small {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(44, 158, 44);
+    right: 150px;
+    top: 35%;
+    z-index: 2;
+}
+.blue {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(50deg) translateY(-50px);
+}
+.purple {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: purple;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+}
